@@ -1,14 +1,16 @@
 import styled from "styled-components";
-
 export const StyledHeader = styled.header`
-    background-color: ${(props) => props.bg};
-    padding: 40px 0;
-
-    h1 {
-        color: red;
-    }
-
+    background-color: ${({theme}) => theme.colors.header};
     &:hover {
-        background-color: black;
     }
+`
+export const Nav = styled.nav`
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+`
+
+export const Logo = styled.img`
+    max-width: 15%;
 `
