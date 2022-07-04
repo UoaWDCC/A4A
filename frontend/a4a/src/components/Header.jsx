@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 export default function Header() {
     return (
         <StyledHeader bg='red' >
-            <Container bg="./images/image.jpg" height="1000px">
+            <Container bg="./images/image.jpg" height="800px">
                 <Nav>
                         <Logo src='./images/a4a.png' alt='' />
                         <Button color="green"><Link to="/">home</Link></Button>
