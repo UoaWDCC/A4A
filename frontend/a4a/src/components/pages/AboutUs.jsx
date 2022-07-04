@@ -6,7 +6,6 @@ function AboutUs() {
         <>
             <Header />
             <Container>
-                <h1>AboutUs</h1>
             </Container>
         </>
     );

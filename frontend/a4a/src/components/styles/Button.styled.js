@@ -5,9 +5,8 @@ export const Button = styled.button`
     border: none;
     font-size: 16px;
     font-weight: 700;
-    margin: 20px 30px;
+    margin: 50px 30px;
     background-color: Transparent;
-    color: ${({color}) => color || '#333'};
 
     &:hover {
         opacity: 0.9;

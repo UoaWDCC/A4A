@@ -6,7 +6,6 @@ function ContactUs() {
         <>
             <Header />
             <Container>
-                <h1>ContactUs</h1>
             </Container>
         </>
     );
