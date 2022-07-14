@@ -6,7 +6,10 @@ import AboutUs from "./components/pages/AboutUs";
 import ContactUs from "./components/pages/ContactUs";
 import Career from "./components/pages/Career";
 
+import { getQuote } from "./axiosExample";
+
 function App() {
+
   return (
     <BrowserRouter>
         <>
@@ -19,6 +22,7 @@ function App() {
             <Route path="/career" element={<Career />} />
           </Routes>
         </>
+        <button onClick={getQuote}>Quote</button>
     </BrowserRouter>
   );
 }
